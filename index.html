@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- fontawesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
+    <title>Hello, world!</title>
+    <link rel="shortcut icon" href="images/fingerprint.png" sizes="14x14">
+  </head>
+  <body>
+    <h1 id="demo">Java script change HTML content</h1>
+    <button type="button" onclick='document.getElementById("demo").innerHTML = "Change HTML content successful"'>Click Me!</button>
+    <br>
+    <button onclick="document.getElementById('myImage').src='images/pic_bulbon.gif'">Turn on the light</button>
+
+    <img id="myImage" src="images/pic_bulboff.gif" style="width:100px">
+
+    <button onclick="document.getElementById('myImage').src='images/pic_bulboff.gif'">Turn off the light</button>
+    <br>
+    <p id="demo1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veritatis quo, assumenda, consequuntur recusandae fugiat voluptatem ipsa vero tempore ea aspernatur.</p>
+
+    <button type="button" onclick="document.getElementById('demo1').style.fontSize='30px'">Click Me!</button>
+    <br>
+
+    <p id="demo2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor, ratione.</p>
+
+    <button type="button" onclick="document.getElementById('demo2').style.display='none'">Click Me!</button>
+
+    <br>
+    <p id="demo3"></p>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
